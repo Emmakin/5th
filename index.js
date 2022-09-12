@@ -13,7 +13,7 @@ function fetchUsers() {
 }
 
 // 3. Render the users in the DOM
-function renderUsers(sersData) {
+function renderUsers(usersData) {
     console.log[userData];
     const ul = document.getElementById("user-list-container");
     console.log(ul);
@@ -31,7 +31,7 @@ function renderUsers(sersData) {
         //Append the current user li tag to the UL tag
         ul.appendChild(li);
     };
-};
+
 
 // 4. Add a search function to the DOM
 function searchUsersByUsername(){
