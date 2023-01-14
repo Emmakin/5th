@@ -1,4 +1,4 @@
-/* Rsetting the browser default styles */
+/*
 *{
     margin:0%;
     padding:0%;
@@ -23,7 +23,6 @@ body{
     
 }
 
-/* SEARCH BOX SECTION */
 .search-section{
     background-color: #6461a0;
     padding: 10px;
@@ -39,7 +38,7 @@ body{
 }
 li{
     border: 1px solid #000000;
-    margin-top: -1px; /*Prevent double borders*/
+    margin-top: -1px; 
     background-color: #f6f6f6;
     font-size: 18px;
     text-transform: capitalize;
@@ -49,7 +48,7 @@ li{
 li:hover{
     background-color: #eeeeee;
 }
-/* PILL BUTTON FOR USERNAME */
+
 .username{
     background-color: #6462a0;
     color: #ffffff;
@@ -57,9 +56,9 @@ li:hover{
     font-size: 14px;
     border-radius: 5px;
 
-/* MEDIA QUERY FOR LARGE SCREEN */
 Qmedia (aln-width: 1000px){
     body{
         width: 50% 
        }
     }
+    */
