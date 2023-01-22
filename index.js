@@ -39,6 +39,16 @@ function renderUsers(usersData){
 }
 
 //4. Add a search function to the DOM
+function searchUserByUsername(){
+    const input = document.getElementById('search');
+    const ul = document.getElementById('user-list-container');
+    const inputValue = input.value.toUpperCase();
+    const usersList = ul.querySelectorAll('li');
+
+    //Loop through all the user and render the ones that matches the search
+    for(let i=o;)
+}
+
 
 
 //5. Calling the function 
