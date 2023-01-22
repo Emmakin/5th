@@ -1,5 +1,5 @@
 // 1. API URL
-const url = "cjv";
+const url = "idkd"
 
 //2. Fetch users from the API
 function fetchUsers(){
@@ -43,10 +43,22 @@ function searchUserByUsername(){
     const input = document.getElementById('search');
     const ul = document.getElementById('user-list-container');
     const inputValue = input.value.toUpperCase();
-    const usersList = ul.querySelectorAll('li');
+    const usersList = ul.querySelectorAll('li'); //array of all the li tag []
+
+    console.log(usersList[2]);
 
     //Loop through all the user and render the ones that matches the search
-    for(let i=o;)
+    for(let index=0; index < usersList.length; index++){
+        const usernameSpanTag = usersList[index].querySelector(".username")
+        const usernameSpanTagValue = usernameSpanTag.innerText.toUpperCase();
+        const isMatch = usernameSpanTagValue.indexOf(inputValue) > -1;
+        if(isMatch){
+            usersList[index].style.display = "block";
+           }else{
+            usersList[index].style.display = "none";
+           }
+        
+        }
 }
 
 
